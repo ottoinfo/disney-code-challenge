@@ -34,7 +34,7 @@
 /******/ 	__webpack_require__.c = installedModules;
 
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/disney-code-challenge/";
+/******/ 	__webpack_require__.p = "/";
 
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(0);
@@ -45,12 +45,12 @@
 /***/ 0:
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(560);
+	module.exports = __webpack_require__(564);
 
 
 /***/ },
 
-/***/ 256:
+/***/ 258:
 /***/ function(module, exports) {
 
 	/*
@@ -107,7 +107,7 @@
 
 /***/ },
 
-/***/ 257:
+/***/ 259:
 /***/ function(module, exports, __webpack_require__) {
 
 	/*
@@ -360,16 +360,16 @@
 
 /***/ },
 
-/***/ 560:
+/***/ 564:
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(561);
+	var content = __webpack_require__(565);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(257)(content, {});
+	var update = __webpack_require__(259)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -387,10 +387,10 @@
 
 /***/ },
 
-/***/ 561:
+/***/ 565:
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(256)();
+	exports = module.exports = __webpack_require__(258)();
 	// imports
 
 
