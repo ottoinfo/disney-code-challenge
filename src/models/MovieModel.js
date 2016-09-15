@@ -10,6 +10,7 @@ export default class MovieModel {
   @observable date = ""
   @observable rating = ""
   @observable run_time = 0
+  @observable show = true
   // Reference
   store = null
 

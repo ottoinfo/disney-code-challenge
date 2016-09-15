@@ -1,17 +1,18 @@
 import React from "react"
 import { observer } from "mobx-react"
+import SearchStore from "../search/Store"
 import styles from "./style.scss"
 
 @observer
 export default class Header extends React.Component {
 
   static contextTypes = {
-    router: React.PropTypes.object.isRequired,
+    MovieStore: React.PropTypes.object.isRequired,
   }
 
   constructor(props, context) {
     super(props, context)
-    this.router = context.router
+    this.MovieStore = context.MovieStore
   }
 
   render() {
@@ -21,7 +22,7 @@ export default class Header extends React.Component {
 
         <div className={styles.spacer}/>
 
-        <input type="text" className={styles.search} placeholder="search"/>
+        <SearchStore store={this.MovieStore} />
       </header>
     )
   }

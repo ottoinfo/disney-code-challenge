@@ -15,7 +15,7 @@ export default class MovieItem extends React.Component {
   }
 
   render() {
-    if (!this.movie.visible) return null
+    if (!this.movie.show) return null
     return (
       <div className={styles.item}>
         <img src={this.movie.image} className={styles.image} />
