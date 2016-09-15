@@ -24,7 +24,6 @@ __Completed__
 As a user
 I want to be able to search for movies by name.
 
-
 As a user
 I want to have a movie's release date formatted.
 (e.g. May 1, 2015)
