@@ -22,6 +22,7 @@
   "author": "Matthew Otto <matt@ottoinfo.com> (http://ottoinfo.com/)",
   "license": "ISC",
   "dependencies": {
+    "fuse.js": "^2.5.0",
     "mobx": "^2.4.1",
     "mobx-react": "^3.5.1",
     "react": "^15.2.1",
