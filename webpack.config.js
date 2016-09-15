@@ -11,7 +11,7 @@ const PATHS = {
   build: path.join(__dirname, "dist"),
   hbs: [path.join(__dirname, "public")],
   js: [path.join(__dirname, "src")],
-  public: "/", // "/DataScience-Code-Test/" GH Pages
+  public: "/", // "/disney-code-challenge/" GH Pages
   style: [path.join(__dirname, "public", "css", "style.scss")],
 }
 

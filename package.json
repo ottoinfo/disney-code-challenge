@@ -1,7 +1,7 @@
 {
-  "name": "DataScience-Code-Test",
+  "name": "Disney-Code-Challenge",
   "version": "1.0.0",
-  "description": "DataScience Code Test",
+  "description": "Disney Code Challenge",
   "main": "src/index.js",
   "scripts": {
     "build": "npm run clean && webpack --display-error-details",
@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ottoinfo/DataScience-Code-Test.git"
+    "url": "git+https://github.com/ottoinfo/disney-code-challenge.git"
   },
   "author": "Matthew Otto <matt@ottoinfo.com> (http://ottoinfo.com/)",
   "license": "ISC",
