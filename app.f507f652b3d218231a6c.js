@@ -27080,7 +27080,7 @@
 /* 236 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";Object.defineProperty(exports,"__esModule",{value:true});var _react=__webpack_require__(2);var _react2=_interopRequireDefault(_react);var _reactRouter=__webpack_require__(173);var _Layout=__webpack_require__(237);var _Layout2=_interopRequireDefault(_Layout);var _Layout3=__webpack_require__(263);var _Layout4=_interopRequireDefault(_Layout3);var _=__webpack_require__(268);var _2=_interopRequireDefault(_);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj};}exports.default=_react2.default.createElement(_reactRouter.Route,{path:"/",component:_Layout2.default},_react2.default.createElement(_reactRouter.IndexRoute,{component:_Layout4.default}),_react2.default.createElement(_reactRouter.Route,{path:"*",component:_2.default}));// Components
+	"use strict";Object.defineProperty(exports,"__esModule",{value:true});var _react=__webpack_require__(2);var _react2=_interopRequireDefault(_react);var _reactRouter=__webpack_require__(173);var _Layout=__webpack_require__(237);var _Layout2=_interopRequireDefault(_Layout);var _Layout3=__webpack_require__(263);var _Layout4=_interopRequireDefault(_Layout3);var _=__webpack_require__(268);var _2=_interopRequireDefault(_);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj};}exports.default=_react2.default.createElement(_reactRouter.Route,{path:"/",component:_Layout2.default},_react2.default.createElement(_reactRouter.IndexRoute,{component:_Layout4.default}),_react2.default.createElement(_reactRouter.Route,{path:"disney-code-challenge",component:_Layout4.default}),_react2.default.createElement(_reactRouter.Route,{path:"*",component:_2.default}));// Components
 
 /***/ },
 /* 237 */
