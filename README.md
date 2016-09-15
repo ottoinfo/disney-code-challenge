@@ -1,5 +1,19 @@
-BoilerPlate React - Mobx setup I have
+FE Code Challenge for Disney
+============================================
 
+Used Express, React, Mobx (for State Management), Webpack, CSS Modules, & Sass Resources
+
+Install/Run Locally
+-------------------
+open Terminal
+
+Install Node Modules
+
+```npm install```
+
+This will start up Server on [localhost:3000](http://localhost:3000)
+
+```npm run server```
 
 User Stories
 ------------
