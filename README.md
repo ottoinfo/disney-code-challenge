@@ -1,7 +1,7 @@
 FE Code Challenge for Disney
 ============================================
 
-Used Express, React, Mobx (for State Management), Webpack, CSS Modules, & Sass Resources
+Used React, Mobx (for State Management), Webpack, CSS Modules, & Sass Resources
 
 Install/Run Locally
 -------------------
@@ -18,7 +18,7 @@ This will start up Server on [localhost:3000](http://localhost:3000)
 User Stories
 ------------
 
-Completed
+__Completed__
 
 ```
 As a user
@@ -34,7 +34,7 @@ I want to have run time specified in hours and minutes.
 (e.g. 1hr 21 mins)
 ```
 
-Incomplete
+__Incomplete__
 
 ```
 As a user
